@@ -4,6 +4,8 @@ const imagemVisualizacao = document.getElementById('imagem-visualizacao');
 const opcaoImagem0 = document.getElementById('0-imagem-miniatura');
 const opcaoImagem1 = document.getElementById('1-imagem-miniatura');
 const opcaoImagem2 = document.getElementById('2-imagem-miniatura');
+const buttonNav = document.querySelector ('.button-nav1');
+const nav = document.querySelector ('nav')
 
 const verdeCipreste = {
   nome: 'Verde-cipreste',
@@ -75,3 +77,22 @@ function atualizarImagemSelecionada() {
   imagemSelecionada = opcaoImagemSelecionada;
   imagemVisualizacao.src = `./imagens/opcoes-cores/${opcoesCores[corSelecionada].nomePastaImagens}/imagem-${imagemSelecionada}.jpeg`;
 }
+
+
+
+ function change () {
+
+
+  if(  nav.classList.toggle ('active')){
+
+        buttonNav.innerHTML = '<i class="bi bi-x-lg"></i>'
+  }
+  else{
+    buttonNav.innerHTML = '<i class="bi bi-list"></i>'
+  }
+   
+  
+ }
+buttonNav.addEventListener ('click' , change )
+
+
