@@ -7,3 +7,8 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <br> 
+
+
+
+https://github.com/JohnGabriel13/Pag-Apple-Watch/assets/152875754/16f8ed2f-021b-4a2e-b09a-edf125bd5068
+
